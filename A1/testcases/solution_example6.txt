@@ -1,0 +1,33 @@
+Usage: 
+setup {table} {numRows}
+insert {table} {data}
+delete {table} {id}
+modify {table} {id} {data}
+get {table}
+
+CS211> setup complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> id,name,yearFounded,city,sport,popularityIndex
+1,"New England Patriots",1959,"Foxborough, Massachusetts",Football,6.000000
+2,"Pittsburgh Steelers",1933,"Pittsburgh, Pennsylvania",Football,6.100000
+3,"Dallas Cowboys",1960,"Arlington, Texas",Football,9.600000
+4,"San Francisco 49ers",1946,"Santa Clara, California",Football,5.900000
+5,"Green Bay Packers",1919,"Green Bay, Wisconsin",Football,4.200000
+CS211> delete complete
+CS211> id,name,yearFounded,city,sport,popularityIndex
+1,"New England Patriots",1959,"Foxborough, Massachusetts",Football,6.000000
+3,"Dallas Cowboys",1960,"Arlington, Texas",Football,9.600000
+4,"San Francisco 49ers",1946,"Santa Clara, California",Football,5.900000
+5,"Green Bay Packers",1919,"Green Bay, Wisconsin",Football,4.200000
+CS211> modify complete
+CS211> id,name,yearFounded,city,sport,popularityIndex
+1,"New England Patriots",1959,"Foxborough, Massachusetts",Football,6.000000
+2,"Pittsburgh Steelers",1933,"Pittsburgh, Pennsylvania",Football,6.500000
+3,"Dallas Cowboys",1960,"Arlington, Texas",Football,9.600000
+4,"San Francisco 49ers",1946,"Santa Clara, California",Football,5.900000
+5,"Green Bay Packers",1919,"Green Bay, Wisconsin",Football,4.200000
+CS211> 

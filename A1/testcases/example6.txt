@@ -1,0 +1,12 @@
+setup teams 5
+insert teams 1 "New England Patriots" 1959 "Foxborough, Massachusetts" Football 6.0
+insert teams 2 "Pittsburgh Steelers" 1933 "Pittsburgh, Pennsylvania" Football 6.1
+insert teams 3 "Dallas Cowboys" 1960 "Arlington, Texas" Football 9.6
+insert teams 4 "San Francisco 49ers" 1946 "Santa Clara, California" Football 5.9
+insert teams 5 "Green Bay Packers" 1919 "Green Bay, Wisconsin" Football 4.2
+get teams
+delete teams 2
+get teams
+modify teams 2 2 "Pittsburgh Steelers" 1933 "Pittsburgh, Pennsylvania" Football 6.5
+get teams
+exit

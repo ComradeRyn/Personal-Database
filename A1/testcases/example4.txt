@@ -1,0 +1,11 @@
+setup competitions 5
+insert competitions 1 "World Series" 2021 Baseball "Atlanta, Georgia"
+insert competitions 2 "Home Run Derby" 2019 Baseball "Cleveland, Ohio"
+insert competitions 2 "All-Star Game" 2020 Baseball "Los Angeles, California"
+insert competitions 4 "World Baseball Classic" 2017 Baseball "Los Angeles, California"
+insert competitions 5 "ALCS" 2018 Baseball "Boston, Massachusetts"
+get competitions
+delete competitions 2
+get competitions
+insert competitions 2 "World Series" 1996 Baseball "New York, New York"
+exit

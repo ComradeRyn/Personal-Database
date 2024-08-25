@@ -1,0 +1,26 @@
+Usage: 
+setup {table} {numRows}
+insert {table} {data}
+delete {table} {id}
+modify {table} {id} {data}
+get {table}
+
+CS211> setup complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> id,name,year,sport,location
+1,"World Series",2021,Baseball,"Atlanta, Georgia"
+2,"Home Run Derby",2019,Baseball,"Cleveland, Ohio"
+2,"All-Star Game",2020,Baseball,"Los Angeles, California"
+4,"World Baseball Classic",2017,Baseball,"Los Angeles, California"
+5,"ALCS",2018,Baseball,"Boston, Massachusetts"
+CS211> delete complete
+CS211> id,name,year,sport,location
+1,"World Series",2021,Baseball,"Atlanta, Georgia"
+4,"World Baseball Classic",2017,Baseball,"Los Angeles, California"
+5,"ALCS",2018,Baseball,"Boston, Massachusetts"
+CS211> cannot insert due to insufficient capacity.
+CS211> 

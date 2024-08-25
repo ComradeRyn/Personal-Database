@@ -1,0 +1,21 @@
+Usage: 
+setup {table} {numRows}
+insert {table} {data}
+delete {table} {id}
+modify {table} {id} {data}
+get {table}
+
+CS211> setup complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> modify complete
+CS211> id,name,year,sport,location
+1,"FIFA World Cup",2018,Soccer,"Russia"
+3,"CONCACAF Gold Cup 2021",2021,Soccer,"United States"
+3,"CONCACAF Gold Cup 2021",2021,Soccer,"United States"
+4,"Copa America 2021",2021,Soccer,"Rio de Janeiro, Brazil"
+5,"AFC Asian Cup",2019,Soccer,"United Arab Emirates"
+CS211> 

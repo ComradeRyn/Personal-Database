@@ -1,0 +1,9 @@
+setup competitions 5
+insert competitions 1 "FIFA World Cup" 2018 Soccer "Russia"
+insert competitions 2 "UEFA Champions League Final" 2020 Soccer "Lisbon, Portugal"
+insert competitions 2 "Copa Libertadores Final" 2019 Soccer "Lima, Peru"
+insert competitions 4 "Copa America 2021" 2021 Soccer "Rio de Janeiro, Brazil"
+insert competitions 5 "AFC Asian Cup" 2019 Soccer "United Arab Emirates"
+modify competitions 2 3 "CONCACAF Gold Cup 2021" 2021 Soccer "United States"
+get competitions
+exit

@@ -1,0 +1,15 @@
+Usage: 
+setup {table} {numRows}
+insert {table} {data}
+delete {table} {id}
+modify {table} {id} {data}
+get {table}
+
+CS211> setup complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> cannot insert due to insufficient capacity.
+CS211> 

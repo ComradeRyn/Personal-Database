@@ -1,0 +1,11 @@
+setup teams 10
+insert teams 1 "New York Yankees" 1903 "New York" Baseball 9.5
+get teams
+insert teams 2 "Boston Red Sox" 1901 Boston Baseball 8.0
+insert teams 3 "Chicago Cubs" 1801 Chicago Baseball 4.2
+insert teams 4 "Los Angeles Dodgers" 1883 "Los Angeles" Baseball 7.1
+insert teams 5 "San Fransisco Giants" 1883 "San Fransisco" Baseball 8.9
+get teams
+modify teams 3 3 "Chicago Cubs" 1876 Chicago Baseball 6.3
+get teams
+exit

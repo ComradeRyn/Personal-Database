@@ -1,0 +1,31 @@
+Usage: 
+setup {table} {numRows}
+insert {table} {data}
+delete {table} {id}
+modify {table} {id} {data}
+get {table}
+
+CS211> setup complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> insert complete
+CS211> id,name,birthYear,nationality,sport
+1,"Fernando Valenzuela",1960,Mexican,Baseball
+2,"Ichiro Suzuki",1973,Japanese,Baseball
+3,"Roberto Clemente",1934,"Puerto Rican",Baseball
+4,"Pedro Martinez",1971,Dominican,Baseball
+5,"Vladimir Guerrero",1975,Dominican,Baseball
+CS211> delete complete
+CS211> id,name,birthYear,nationality,sport
+1,"Fernando Valenzuela",1960,Mexican,Baseball
+2,"Ichiro Suzuki",1973,Japanese,Baseball
+4,"Pedro Martinez",1971,Dominican,Baseball
+5,"Vladimir Guerrero",1975,Dominican,Baseball
+CS211> delete complete
+CS211> delete complete
+CS211> delete complete
+CS211> delete complete
+CS211> id,name,birthYear,nationality,sport
+CS211> 

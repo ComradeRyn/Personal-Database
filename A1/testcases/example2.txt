@@ -1,0 +1,8 @@
+setup athletes 5
+insert athletes 1 "Babe Ruth" 1895 American Baseball
+insert athletes 2 "Jackie Robinson" 1919 American Baseball
+insert athletes 3 "Ichiro Suzuki" 1973 Japanese Baseball
+insert athletes 4 "Vladimir Guerrero" 1975 Dominican Baseball
+insert athletes 5 "Ted Williams" 1918 American Baseball
+insert athletes 6 "Roberto Clemente" 1934 "Puerto Rican" Baseball
+exit
